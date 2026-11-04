@@ -1,0 +1,28 @@
+digraph G { rankdir=TB; nodesep=0.5; ranksep=0.9; node [fontname="DejaVu Sans", fontsize=13, shape=box, style="rounded,filled", margin="0.25,0.15"];
+edge [color="#7a8899", arrowsize=0.8];
+meta [label="META\nElegir la mejor infraestructura de TI", fillcolor="#1f3a5f", fontcolor=white, fontsize=15];
+c0 [label="Costo\nimportancia: 28.4 %", fillcolor="#cfe0f1", color="#4f86c6"];
+meta -> c0 [penwidth=3.56, color="#4f86c6"];
+c1 [label="Rendimiento\nimportancia: 17.0 %", fillcolor="#cfe0f1", color="#4f86c6"];
+meta -> c1 [penwidth=2.53, color="#4f86c6"];
+c2 [label="Seguridad\nimportancia: 47.3 %", fillcolor="#cfe0f1", color="#4f86c6"];
+meta -> c2 [penwidth=5.26, color="#4f86c6"];
+c3 [label="Soporte\nimportancia: 7.3 %", fillcolor="#cfe0f1", color="#4f86c6"];
+meta -> c3 [penwidth=1.66, color="#4f86c6"];
+a0 [label="Nube pública\npuntaje final: 31.2 %", fillcolor="#fff4d6", color="#d9a441"];
+c0 -> a0;
+c1 -> a0;
+c2 -> a0;
+c3 -> a0;
+a1 [label="Nube híbrida\npuntaje final: 25.0 %", fillcolor="#fff4d6", color="#d9a441"];
+c0 -> a1;
+c1 -> a1;
+c2 -> a1;
+c3 -> a1;
+a2 [label="★ Local (on-premise)\npuntaje final: 43.8 %\n(mejor opción)", fillcolor="#d8f0e0", color="#2e8b57", penwidth=3];
+c0 -> a2;
+c1 -> a2;
+c2 -> a2;
+c3 -> a2;
+label="Cuanto más gruesa la flecha, más importante es el criterio"; labelloc=b; fontname="DejaVu Sans"; fontsize=11; fontcolor="#555555";
+}

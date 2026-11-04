@@ -1,0 +1,57 @@
+{
+  "bayes": {
+    "p_fav": 0.49750000000000005,
+    "p_alta_fav": 0.7236180904522613,
+    "p_alta_des": 0.1791044776119403
+  },
+  "ev_sin_info": {
+    "Planta grande": 30.0,
+    "Planta pequeña": 35.0,
+    "No invertir": 0.0
+  },
+  "ev_raiz": 53.35,
+  "decision_D1": "Con estudio",
+  "ev_info_perfecta": 112.5,
+  "ev_mejor_sin_info": 35.0,
+  "EVPI": 77.5,
+  "EVSI": 38.349999999999994,
+  "costo_estudio": 20.0,
+  "D2_fav": "Planta grande",
+  "D2_des": "Planta pequeña",
+  "EV_fav": 119.44723618090453,
+  "EV_des": -12.089552238805972,
+  "utilidad": {
+    "Neutral al riesgo (EV)": {
+      "valor": 53.35,
+      "EC": 53.35,
+      "D1": "Con estudio",
+      "D2_sin": "Planta pequeña",
+      "D2_fav": "Planta grande",
+      "D2_des": "Planta pequeña"
+    },
+    "Aversión (R=100)": {
+      "valor": 0.20919964817512415,
+      "EC": 23.47097427883591,
+      "D1": "Sin estudio",
+      "D2_sin": "Planta pequeña",
+      "D2_fav": "Planta pequeña",
+      "D2_des": "Planta pequeña"
+    },
+    "Aversión leve (R=300)": {
+      "valor": 0.0979894882607612,
+      "EC": 30.938731552354586,
+      "D1": "Sin estudio",
+      "D2_sin": "Planta pequeña",
+      "D2_fav": "Planta grande",
+      "D2_des": "Planta pequeña"
+    },
+    "Propensión (R=200)": {
+      "valor": 0.8304559348653868,
+      "EC": 120.91301611142364,
+      "D1": "Sin estudio",
+      "D2_sin": "Planta grande",
+      "D2_fav": "Planta grande",
+      "D2_des": "Planta pequeña"
+    }
+  }
+}

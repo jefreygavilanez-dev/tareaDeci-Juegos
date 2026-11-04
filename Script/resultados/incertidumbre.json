@@ -1,0 +1,160 @@
+{
+  "alfa": 0.6,
+  "pagos": {
+    "index": [
+      "A1 Expandir capacidad",
+      "A2 Nuevo producto",
+      "A3 Alianza estratégica",
+      "A4 Mantener"
+    ],
+    "columns": [
+      "Boom",
+      "Crecimiento",
+      "Estancamiento",
+      "Recesión"
+    ],
+    "data": [
+      [
+        120,
+        60,
+        -20,
+        -80
+      ],
+      [
+        90,
+        70,
+        10,
+        -40
+      ],
+      [
+        60,
+        50,
+        30,
+        0
+      ],
+      [
+        25,
+        25,
+        20,
+        15
+      ]
+    ]
+  },
+  "regret": {
+    "index": [
+      "A1 Expandir capacidad",
+      "A2 Nuevo producto",
+      "A3 Alianza estratégica",
+      "A4 Mantener"
+    ],
+    "columns": [
+      "Boom",
+      "Crecimiento",
+      "Estancamiento",
+      "Recesión"
+    ],
+    "data": [
+      [
+        0.0,
+        10.0,
+        50.0,
+        95.0
+      ],
+      [
+        30.0,
+        0.0,
+        20.0,
+        55.0
+      ],
+      [
+        60.0,
+        20.0,
+        0.0,
+        15.0
+      ],
+      [
+        95.0,
+        45.0,
+        10.0,
+        0.0
+      ]
+    ]
+  },
+  "tabla": {
+    "index": [
+      "A1 Expandir capacidad",
+      "A2 Nuevo producto",
+      "A3 Alianza estratégica",
+      "A4 Mantener"
+    ],
+    "columns": [
+      "Maximax",
+      "Maximin (Wald)",
+      "Hurwicz (α=0.6)",
+      "Laplace",
+      "Savage (máx. arrepentimiento)"
+    ],
+    "data": [
+      [
+        120.0,
+        -80.0,
+        40.0,
+        20.0,
+        95.0
+      ],
+      [
+        90.0,
+        -40.0,
+        38.0,
+        32.5,
+        55.0
+      ],
+      [
+        60.0,
+        0.0,
+        36.0,
+        35.0,
+        60.0
+      ],
+      [
+        25.0,
+        15.0,
+        21.0,
+        21.25,
+        95.0
+      ]
+    ]
+  },
+  "resumen": [
+    {
+      "Criterio": "Maximax",
+      "Regla": "max de máximos",
+      "Alternativa óptima": "A1 Expandir capacidad",
+      "Valor": 120.0
+    },
+    {
+      "Criterio": "Maximin (Wald)",
+      "Regla": "max de mínimos",
+      "Alternativa óptima": "A4 Mantener",
+      "Valor": 15.0
+    },
+    {
+      "Criterio": "Hurwicz (α=0.6)",
+      "Regla": "max α·máx+(1-α)·mín",
+      "Alternativa óptima": "A1 Expandir capacidad",
+      "Valor": 40.0
+    },
+    {
+      "Criterio": "Laplace",
+      "Regla": "max promedio",
+      "Alternativa óptima": "A3 Alianza estratégica",
+      "Valor": 35.0
+    },
+    {
+      "Criterio": "Savage (máx. arrepentimiento)",
+      "Regla": "min de máx. arrepentimiento",
+      "Alternativa óptima": "A2 Nuevo producto",
+      "Valor": 55.0
+    }
+  ]
+}
